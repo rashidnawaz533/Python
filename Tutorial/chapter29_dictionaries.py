@@ -13,7 +13,7 @@ list = list + ["new item"]
 # Add two elements to a list using the plus sign. The elements are numbers. Make everything up.
 list = list + [2, 4]
 
-#Add two items to a dictionary. All keys and values are strings. Make everything up.
+# Add two items to a dictionary. All keys and values are strings. Make everything up.
 dc = {}
 dc["1"] = "a"
 dc["2"] = "b"
