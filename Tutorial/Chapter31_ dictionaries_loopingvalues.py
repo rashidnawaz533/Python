@@ -1,5 +1,5 @@
 # print every values in list using for loop
-list = {'1','2','3'}
+list = {0:'1',1:'2',2:'3'}
 for val in list.values():
   print(val)
 
@@ -8,7 +8,7 @@ for val in list.values():
 
 list = {0:'1',1:'2',3:'3'}
 for val in list.values():
-    if val<0:
+    if int(val) < 0:
       print("ok")
       break
 
